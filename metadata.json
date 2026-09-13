@@ -1,0 +1,6 @@
+{
+  "name": "VidLoad",
+  "description": "Official landing page for VidLoad Android video downloader.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
