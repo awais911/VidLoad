@@ -28,12 +28,13 @@ export default function App() {
           </div>
           <span className="text-xl font-bold font-display tracking-tight">VidLoad</span>
         </div>
-        <button 
+        <a 
+          href="https://github.com/awais911/VidLoad/releases/download/beta/VidLoad.v0.05.beta.apk"
           id="header-download-btn"
-          className="px-5 py-2 text-sm font-semibold text-neutral-950 bg-neutral-50 rounded-full hover:bg-neutral-200 active:scale-95 transition-all"
+          className="px-5 py-2 text-sm font-semibold text-neutral-950 bg-neutral-50 rounded-full hover:bg-neutral-200 active:scale-95 transition-all inline-flex items-center justify-center"
         >
           Download
-        </button>
+        </a>
       </header>
 
       <main className="max-w-5xl mx-auto px-6 pt-20 pb-16 flex flex-col items-center text-center">
@@ -46,13 +47,14 @@ export default function App() {
             Download your favorite videos in full resolution. No watermarks, no limits. Background play and Shorts support built-in.
           </p>
 
-          <button 
+          <a 
+            href="https://github.com/awais911/VidLoad/releases/download/beta/VidLoad.v0.05.beta.apk"
             id="hero-download-btn"
             className="flex items-center gap-3 px-8 py-4 bg-neutral-50 text-neutral-950 rounded-full font-semibold text-lg hover:bg-neutral-200 active:scale-95 transition-all mb-8 shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_-15px_rgba(255,255,255,0.4)]"
           >
             <Download className="w-5 h-5" />
             Official APK Download
-          </button>
+          </a>
 
           {/* Live Visitor & Location Counter */}
           <div 
@@ -131,7 +133,7 @@ export default function App() {
           </div>
           <div className="flex items-center gap-8">
             <a href="#" className="hover:text-neutral-300 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-neutral-300 transition-colors flex items-center gap-2">
+            <a href="https://github.com/awais911/VidLoad" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 transition-colors flex items-center gap-2">
               <Github className="w-4 h-4" />
               GitHub
             </a>
